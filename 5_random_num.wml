@@ -1,0 +1,16 @@
+<!-- Display Random Numbers Between 1 to 10   -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="5_random_num.wmls#random_num()">
+            </go>
+        </do>
+        <p> Random Numbers </p>
+    </card>
+</wml>
+

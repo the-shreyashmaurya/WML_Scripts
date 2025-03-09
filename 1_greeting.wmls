@@ -1,0 +1,10 @@
+extern function ask_display() 
+
+ {
+
+ var n ;
+ var a = "Welcome ";
+ n = Dialogs.prompt("Enter Your Name","Name");
+ Dialogs.alert(a+n+" !!");
+
+ }

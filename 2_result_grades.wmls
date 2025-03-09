@@ -1,0 +1,20 @@
+extern function grades(){
+    
+    var a = Dialogs.prompt("Enter your marks","85");
+    a = Float.int(a);
+    if (a >= 80){
+        Dialogs.alert("Grade : EXCELLENT");
+    }
+    else if (a > 60){
+        Dialogs.alert("Grade : GOOD");
+    }
+    else if (a > 35){
+        Dialogs.alert("Grade : PASS");
+
+    }
+    else{
+        Dialogs.alert("Grade : FAIL");    }
+    WMLBrowser.refresh();
+}
+
+

@@ -1,0 +1,28 @@
+extern function calculator(){
+    var a,b,c,d,e;
+    
+    a = Dialogs.prompt("Enter integer one","10");
+    b = Dialogs.prompt("Enter integer two","12");
+    c = Dialogs.prompt("Enter Operator","+");
+
+    a = Float.int(a);
+    b = Float.int(b);
+
+    if (c == "+"){
+        d = a + b ;
+        Dialogs.alert(a+"+"+b+"="+d);
+        
+    }
+    else if (c == "-"){
+        d = a - b ;
+        Dialogs.alert(a+"-"+b+"="+d);
+    }
+    else if (c == "*"){
+        d = a * b ;
+        Dialogs.alert(a+"*"+b+"="+d);
+    }
+    else if (c == "/"){
+        d = a / b ;
+        Dialogs.alert(a+"/"+b+"="+d);
+    }
+}

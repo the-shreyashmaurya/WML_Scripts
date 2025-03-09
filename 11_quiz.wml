@@ -1,0 +1,24 @@
+<!-- Quiz  -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="11_quiz.wmls#quiz()"/>
+        </do>
+        <p>
+            Quiz
+        </p>
+    </card>
+
+    <card id="correct">
+        <p>Your Answer is Correct</p>
+    </card>
+    <card id="wrong">
+        <p>Wrong Answer</p>
+    </card>
+</wml>
+

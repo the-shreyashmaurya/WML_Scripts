@@ -1,0 +1,23 @@
+<!-- Caluculator Using WML Script -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="10_calculator.wmls#calculator()"/>
+        </do>
+        <p>
+            calculator
+            <p>
+                + -> Addition <br>
+                - -> Substraction <br>
+                * -> Multiplication <br>
+                / -> Division 
+            </p>
+        </p>
+    </card>
+</wml>
+

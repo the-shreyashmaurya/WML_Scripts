@@ -1,0 +1,13 @@
+extern function quiz(){
+    var result;
+
+    result = Dialogs.confirm("2 + 2 is equal to 4","True","False");
+
+    if (result == true){
+        WMLBrowser.go("program_17.wml#correct");
+    }
+    else {
+        WMLBrowser.go("program_17.wml#wrong");
+
+    }
+}

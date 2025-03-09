@@ -1,0 +1,16 @@
+<!-- Remove Spaces from a String using trim function  -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="9_remove_space.wmls#remove_space()">
+            </go>
+        </do>
+        <p> Remove Spaces using Trim </p>
+    </card>
+</wml>
+

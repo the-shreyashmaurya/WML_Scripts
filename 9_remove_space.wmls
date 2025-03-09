@@ -1,0 +1,11 @@
+extern function remove_space(){
+    var a,b,c ;
+    a = Dialogs.prompt("Enter a String with Spaces","    String with Spaces     ");
+    
+    // trim removes the leading and trailing spaces.
+    b = String.trim(a);
+
+    Dialogs.alert(b);
+
+ 
+}

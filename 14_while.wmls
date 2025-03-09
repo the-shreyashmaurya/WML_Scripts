@@ -1,0 +1,16 @@
+extern function findwhile()
+{
+   var sum , name1, times, result; 
+ sum = 0;
+    name1 = Dialogs.prompt("Enter your name","Test");
+    times = Dialogs.prompt("Enter number of times to print","5");
+    result = " ";
+
+   while(sum < times)
+   {
+      result = result + name1;
+      sum = sum + 1;
+   }
+   Dialogs.alert(result);
+   
+};

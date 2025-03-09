@@ -1,0 +1,12 @@
+extern function findfor()
+{
+   var num = Dialogs.prompt("Enter a Number","5");
+   num = Float.int(num);
+   var factorial = 1;
+   for(var count=num; count > 1; count--;)
+   {
+      factorial = factorial * count;
+   }
+   Dialogs.alert("Factorial of "+num+" is "+factorial);
+   WMLBrowser.go("15_for.wml#card2");
+};

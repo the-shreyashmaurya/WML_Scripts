@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.WAPforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<card id="card1">
+   <do type="accept">
+      <go href="13_getVar.wmls#getvar()" />
+   </do>
+</card>
+
+<card id="card2">
+<p>
+   load string = $(str);
+</p>
+</card>

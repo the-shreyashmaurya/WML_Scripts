@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.WAPforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<card id="card1">
+   <p>
+   setVar example
+   </p>
+   <do type="accept">
+      <go href="12_setVar.wmls#findsetvar()" />
+   </do>
+</card>
+
+<card id="card2">
+<p>
+   $(varname) = $(varvalue)
+</p>
+</card>
+
+</wml>

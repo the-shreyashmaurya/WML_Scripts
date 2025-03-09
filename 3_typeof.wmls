@@ -1,0 +1,17 @@
+extern function var_type(a){
+    var type = typeof(a);
+    
+
+    if (type == 0){
+        Dialogs.alert("Integer");
+    }
+    else if (type == 1){
+        Dialogs.alert("Float");
+    }
+    else if (type == 2){
+        Dialogs.alert("String");
+    }
+    else if (type == 3){
+        Dialogs.alert("Boolean");
+    }
+}

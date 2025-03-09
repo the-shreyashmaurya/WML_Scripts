@@ -1,0 +1,10 @@
+extern function findsetvar()
+{
+   var nam = Dialogs.prompt("Enter the name", "");
+   var val = Dialogs.prompt("Enter the value", "");
+   var boo1 = WMLBrowser.setVar("varname", nam);
+   var boo2 = WMLBrowser.setVar("varvalue", val);
+   WMLBrowser.setVar("bool1", boo1);
+   WMLBrowser.setVar("bool2", boo2);
+   WMLBrowser.go("12_setVar.wml#card2");
+};

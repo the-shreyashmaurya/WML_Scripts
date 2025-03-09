@@ -1,0 +1,14 @@
+<!-- ALert the grades of Student (Excellent,Good,Pass,Fail) based on the marks obtained  -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="2_result_grades.wmls#grades()"/>
+        </do>
+    </card>
+</wml>
+

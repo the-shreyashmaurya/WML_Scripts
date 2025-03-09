@@ -1,0 +1,16 @@
+<!-- Check the type of Variable using typeof   -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="3_typeof.wmls#var_type(true)">
+            </go>
+        </do>
+        <p> Check type of variable </p>
+    </card>
+</wml>
+

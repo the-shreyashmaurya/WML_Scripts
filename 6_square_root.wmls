@@ -1,0 +1,13 @@
+extern function abc(){
+    // var a = 4;
+    var a;
+    a = Dialogs.prompt("Enter a number","Number");
+    a = Float.int(a); 
+    var square,squareroot;
+
+    square = Float.pow(a,2);
+    squareroot = Float.sqrt(a);
+
+    Dialogs.alert("Square : "+ square + "\nSquareRoot : " +squareroot);
+
+}

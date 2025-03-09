@@ -1,0 +1,16 @@
+<!-- Find the square and squareroot of a number using WML Script   -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="6_square_root.wmls#abc()">
+            </go>
+        </do>
+        <p> Square and Squareroot of given Number </p>
+    </card>
+</wml>
+

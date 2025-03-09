@@ -1,0 +1,8 @@
+extern function getvar()
+{
+   var val = Dialogs.prompt("Enter any value", "");
+   var valu = WMLBrowser.getVar(val);
+   var str = "The value is " + WMLBrowser.getVar(valu);
+   WMLBrowser.setVar("str", str);
+   WMLBrowser.go("13_getVar.wml#card2");
+};

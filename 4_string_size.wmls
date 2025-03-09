@@ -1,0 +1,6 @@
+extern function string_size(){
+    var a,b;
+    a = Dialogs.prompt("Enter a String","Demo");
+    b = String.length(a);
+    Dialogs.alert(b);
+}

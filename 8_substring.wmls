@@ -1,0 +1,14 @@
+extern function find_substring(){
+    var str,sub ;
+
+    str = Dialogs.prompt("Enter a String","String");
+    sub = Dialogs.prompt("Enter a Substring","Substring");
+
+    var c = String.find(str,sub);
+    if (c > 0){
+        Dialogs.alert("Substring Found !");
+    }
+    else{
+        Dialogs.alert("No Substring found");
+    }
+}

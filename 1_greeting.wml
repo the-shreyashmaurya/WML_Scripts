@@ -1,0 +1,16 @@
+<!-- Ask user their name using promts and greet them  -->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="c1">
+        <do>
+            <go href="1_greeting.wmls#ask_display()">
+            </go>
+        </do>
+        <p> Greetings </p>
+    </card>
+</wml>
+

@@ -1,0 +1,5 @@
+extern function random_num(){
+    var a;
+    a = Lang.random(10);
+    Dialogs.alert(a);
+}

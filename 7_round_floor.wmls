@@ -1,0 +1,12 @@
+extern function abc(){
+    var a;
+    a = Dialogs.prompt("Enter a number","Number");
+    a = Float.int(a); 
+    var round1,floor1;
+
+    round1 = Float.round(a);
+    floor1 = Float.floor(a);
+
+    Dialogs.alert("Round : "+ round1 + "\nFloor : " +floor1);
+
+}
