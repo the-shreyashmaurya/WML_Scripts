@@ -1,4 +1,4 @@
-# WML Scripts  
+# WML Scripts 
 
 This repository contains a collection of **Wireless Markup Language (WML)** scripts, each paired with its corresponding **WMLScript (WMLS)** file. These scripts demonstrate various functionalities and features of WML and WMLScript.  
 
